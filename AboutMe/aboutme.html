@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    
+    <!-- external css used hoise  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- internal css used hoise -->
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2 style="text-decoration: underline;"> <!-- inline css use hoise  --> Personal Information Form</h2>
+        <form action="#" method="post"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            <br><br>
+            
+            <label for="blood-group">Blood Group:</label>
+            <select id="blood-group" name="blood-group" required>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+            <br><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+            
+            <button type="submit" style=" padding: 5px 10px; 
+            border: 1px solid #7f609d;
+            background-color: blue;
+            color: white;
+            display: block;
+            margin: 10px auto 0;"> <!-- inline css use hoise  --> Submit</button>
+        </form>
+    </center>
+</body>
+</html>
