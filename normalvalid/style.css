@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+form {
+    display: inline-block;
+    padding: 30px;
+    background-color: rgb(82, 95, 181);
+}
+button[type="submit"] {
+    background-color:green; 
+    color: white;
+    padding: 10px ;
+    cursor: pointer; 
+}
+
+
+button[type="submit"]:hover {
+    background-color: red; 
+}
