@@ -20,7 +20,7 @@ function validinput(input) {
           isvalid = false;
      }
      else {
-          //showsuccess(usernameinput);
+          
 
      }
 
@@ -34,7 +34,7 @@ function validinput(input) {
           isvalid = false;
      }
      else {
-          //showsuccess(emailinput);
+          
      }
 
      if (passwordinput.value.trim() === "") {
@@ -46,7 +46,7 @@ function validinput(input) {
           isvalid = false;
      }
      else {
-          // showsuccess(passwordinput);
+          
      }
 
 
@@ -59,7 +59,7 @@ function validinput(input) {
           isvalid = false;
      }
      else {
-          //showsuccess(password2input);
+        
      }
      return isvalid;
 
